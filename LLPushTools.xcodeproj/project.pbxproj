@@ -6,6 +6,20 @@
 	objectVersion = 50;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		8C6FC0FD25B17CE900AEE53B /* AG */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 8C6FC10025B17CE900AEE53B /* Build configuration list for PBXAggregateTarget "AG" */;
+			buildPhases = (
+				8C6FC10325B17CF000AEE53B /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = AG;
+			productName = AG;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
 		6F1974C0C77FFCFA137BC7EC /* Pods_LLPushTools.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAD8CE10C57D082665F2D406 /* Pods_LLPushTools.framework */; };
 		8C41863525B138A50076D121 /* LLPushTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C41863325B138A50076D121 /* LLPushTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -127,6 +141,9 @@
 						CreatedOnToolsVersion = 12.0.1;
 						LastSwiftMigration = 1200;
 					};
+					8C6FC0FD25B17CE900AEE53B = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
 				};
 			};
 			buildConfigurationList = 8C41862A25B138A50076D121 /* Build configuration list for PBXProject "LLPushTools" */;
@@ -143,6 +160,7 @@
 			projectRoot = "";
 			targets = (
 				8C41862F25B138A50076D121 /* LLPushTools */,
+				8C6FC0FD25B17CE900AEE53B /* AG */,
 			);
 		};
 /* End PBXProject section */
@@ -179,6 +197,23 @@
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
+		};
+		8C6FC10325B17CF000AEE53B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./LLPushTools.sh\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -337,7 +372,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.1;
+				MARKETING_VERSION = 1.0.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.LLBAO.LLPushTools;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -368,13 +403,31 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.1;
+				MARKETING_VERSION = 1.0.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.LLBAO.LLPushTools;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		8C6FC0FE25B17CE900AEE53B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 59GUGKA6UT;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8C6FC0FF25B17CE900AEE53B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 59GUGKA6UT;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
@@ -395,6 +448,15 @@
 			buildConfigurations = (
 				8C41863925B138A50076D121 /* Debug */,
 				8C41863A25B138A50076D121 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C6FC10025B17CE900AEE53B /* Build configuration list for PBXAggregateTarget "AG" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C6FC0FE25B17CE900AEE53B /* Debug */,
+				8C6FC0FF25B17CE900AEE53B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

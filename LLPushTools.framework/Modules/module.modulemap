@@ -1,0 +1,11 @@
+framework module LLPushTools {
+  umbrella header "LLPushTools.h"
+
+  export *
+  module * { export * }
+}
+
+module LLPushTools.Swift {
+    header "LLPushTools-Swift.h"
+    requires objc
+}
