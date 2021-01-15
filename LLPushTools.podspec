@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
 
 
 
-  s.source_files  = 'LLPushTools/Public/**/*.{h,m,swift}'
+  s.source_files  = 'LLPushTools/**/*.{h,m,swift}'
   s.vendored_frameworks = 'LLPushTools.framework'
   s.dependency 'SnapKit', '~> 4.0.0'
 
