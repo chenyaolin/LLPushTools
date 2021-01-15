@@ -14,7 +14,7 @@ public class LLPushManager: NSObject {
     }
     
     public class func run() {
-        LLCar.run()
+//        LLCar.run()
     }
 
 }
