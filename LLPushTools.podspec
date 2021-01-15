@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
   s.author             = { '陈耀林' => 'lindits@163.com' }
   s.ios.deployment_target = '10.0'
   s.requires_arc = true
-  s.source       = { :git => 'https://github.com/chenyaolin/LLPushTools.git', :tag => '#{s.version}' } #工程的git地址
+  s.source       = { :git => 'https://github.com/chenyaolin/LLPushTools.git', :tag => "#{s.version}" } #工程的git地址
 
 
 
