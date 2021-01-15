@@ -4,10 +4,6 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Headers/LLPushManager.swift</key>
-		<data>
-		+WyCGJS5CUjhUueeOF5r7urw0zU=
-		</data>
 		<key>Headers/LLPushTools-Swift.h</key>
 		<data>
 		eo/qLUsYDd6jeghO1vpYX8ngc4s=
@@ -18,15 +14,15 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		mjMpVBHjWS2ZWkUDdi7MIZTfORE=
+		PHDj/JgpVVEjLfXRHrUsX8naloo=
 		</data>
 		<key>Modules/LLPushTools.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		YGc2jRpaZ9oKEpPplVZM2Po8nGA=
+		Exsex5N2ajNOQbG6KVUvruAlKEU=
 		</data>
 		<key>Modules/LLPushTools.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<data>
-		YGc2jRpaZ9oKEpPplVZM2Po8nGA=
+		Exsex5N2ajNOQbG6KVUvruAlKEU=
 		</data>
 		<key>Modules/LLPushTools.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -51,13 +47,6 @@
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Headers/LLPushManager.swift</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			EPuQEXRey7wtrVgGUQYFaCGp0SVZuJTxwRXnAkkawi8=
-			</data>
-		</dict>
 		<key>Headers/LLPushTools-Swift.h</key>
 		<dict>
 			<key>hash2</key>
@@ -76,14 +65,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			GwJLM3goG2PeNCCfbQ4k6unz/J9H8OONSU9sETDpl78=
+			w+7UtZA5jM/fwPwz+WdCCoA548YMxe9B62qYIb49n64=
 			</data>
 		</dict>
 		<key>Modules/LLPushTools.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			GwJLM3goG2PeNCCfbQ4k6unz/J9H8OONSU9sETDpl78=
+			w+7UtZA5jM/fwPwz+WdCCoA548YMxe9B62qYIb49n64=
 			</data>
 		</dict>
 		<key>Modules/LLPushTools.swiftmodule/arm64-apple-ios.swiftdoc</key>

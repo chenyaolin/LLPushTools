@@ -25,7 +25,6 @@
 		8C41863525B138A50076D121 /* LLPushTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C41863325B138A50076D121 /* LLPushTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8C41865625B141FF0076D121 /* LLPushManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C41865525B141FF0076D121 /* LLPushManager.swift */; };
 		8C4A44F225B174FC00748FBB /* LLCar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4A44F125B174FC00748FBB /* LLCar.swift */; };
-		8C6FC10C25B1828A00AEE53B /* LLPushManager.swift in Headers */ = {isa = PBXBuildFile; fileRef = 8C41865525B141FF0076D121 /* LLPushManager.swift */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -89,12 +88,20 @@
 		8C41863225B138A50076D121 /* LLPushTools */ = {
 			isa = PBXGroup;
 			children = (
+				8C6FC11225B1848000AEE53B /* Public */,
 				8C41863325B138A50076D121 /* LLPushTools.h */,
 				8C41863425B138A50076D121 /* Info.plist */,
-				8C41865525B141FF0076D121 /* LLPushManager.swift */,
 				8C4A44F125B174FC00748FBB /* LLCar.swift */,
 			);
 			path = LLPushTools;
+			sourceTree = "<group>";
+		};
+		8C6FC11225B1848000AEE53B /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				8C41865525B141FF0076D121 /* LLPushManager.swift */,
+			);
+			path = Public;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -105,7 +112,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C41863525B138A50076D121 /* LLPushTools.h in Headers */,
-				8C6FC10C25B1828A00AEE53B /* LLPushManager.swift in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -374,7 +380,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.3;
+				MARKETING_VERSION = 1.0.4;
 				PRODUCT_BUNDLE_IDENTIFIER = com.LLBAO.LLPushTools;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -405,7 +411,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.3;
+				MARKETING_VERSION = 1.0.4;
 				PRODUCT_BUNDLE_IDENTIFIER = com.LLBAO.LLPushTools;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
