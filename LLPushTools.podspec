@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = 'LLPushTools' #工程的名字
-  s.version      = '1.0.2' #工程的版本
+  s.version      = '1.0.3' #工程的版本
   s.summary      = '摘要' #工程的摘要
 
   #工程的r描述, 一定要比工程的摘要要长
