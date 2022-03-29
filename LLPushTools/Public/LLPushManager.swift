@@ -10,7 +10,7 @@ import UIKit
 public class LLPushManager: NSObject {
     
     public class func sayHello() {
-        print("hello work")
+        print("hello work test")
     }
     
     public class func run() {
