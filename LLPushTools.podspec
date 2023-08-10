@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = 'LLPushTools' #工程的名字
-  s.version      = '1.0.5' #工程的版本
+  s.version      = '1.0.6' #工程的版本
   s.summary      = '摘要' #工程的摘要
 
   #工程的r描述, 一定要比工程的摘要要长
@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
   s.author             = { '陈耀林' => 'lindits@163.com' }
   s.ios.deployment_target = '10.0'
   s.requires_arc = true
-  s.source       = { :git => 'https://github.com/chenyaolin/LLPushTools.git', :tag => "#{s.version}" } #工程的git地址
+  s.source       = { :git => 'git@github.com:chenyaolin/LLPushTools.git', :tag => "#{s.version}" } #工程的git地址
 
 
 
